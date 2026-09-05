@@ -157,7 +157,7 @@
     <header id="siteHeader">
         <div class="container header-inner">
             <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu"><i class="fas fa-bars"></i></button>
-            <a class="brand" href="#" aria-label="NexusShop home"><i class="fas fa-store"></i><span>Nexus<span class="accent">Shop</span></span></a>
+            <a class="brand" href="#" aria-label="chandu home"><i class="fas fa-store"></i><span>Nexus<span class="accent">Shop</span></span></a>
 
             <nav class="main-nav" aria-label="Main navigation">
                 <ul>
@@ -322,7 +322,7 @@
                 <div class="col"><h5>Help</h5><ul><li><a href="#">Help center</a></li><li><a href="#">Shipping</a></li><li><a href="#">Returns</a></li><li><a href="#">Contact us</a></li></ul></div>
                 <div class="col"><h5>Company</h5><ul><li><a href="#">About</a></li><li><a href="#">Careers</a></li><li><a href="#">Privacy</a></li><li><a href="#">Terms</a></li></ul></div>
             </div>
-            <div class="footer-bottom">&copy; <span id="year"></span> NexusShop. All rights reserved.</div>
+            <div class="footer-bottom">&copy; <span id="year"></span> chandu. All rights reserved.</div>
         </div>
     </footer>
 
@@ -585,7 +585,7 @@
             e.preventDefault();
             const email=$('newsletterEmail').value.trim(), msg=$('newsletterMsg');
             if(!email || !email.includes('@')){msg.textContent='Please enter a valid email address.';msg.style.color='#ffd1d1';return}
-            msg.textContent='✓ You’re subscribed. Welcome to NexusShop!';msg.style.color='#d9ffd9';$('newsletterEmail').value='';
+            msg.textContent='✓ You’re subscribed. Welcome to chandu!';msg.style.color='#d9ffd9';$('newsletterEmail').value='';
             setTimeout(()=>msg.textContent='',3500);
         });
 
